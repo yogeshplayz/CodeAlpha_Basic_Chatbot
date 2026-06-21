@@ -32,9 +32,7 @@ This chatbot application demonstrates the fundamentals of natural language proce
 ```
 CodeAlpha_Basic_Chatbot/
 ├── README.md
-├── chatbot.py          # Main chatbot logic
-├── responses.py        # Predefined responses and rules
-└── main.py            # Entry point for the application
+├── chatbot.py     
 ```
 
 ## Getting Started
@@ -46,8 +44,14 @@ CodeAlpha_Basic_Chatbot/
 ### Installation & Usage
 
 1. Clone the repository
+```
+git clone https://github.com/yogeshplayz/CodeAlpha_Basic_Chatbot.git
+cd CodeAlpha_Basic_Chatbot
+```
 2. Run the chatbot application
-3. Enter your queries and receive predefined replies
+```
+python chatbot.py
+```
 
 ## Example Interaction
 
@@ -62,28 +66,11 @@ User: "How are you?"
 Bot: "I'm functioning well, thank you for asking!"
 ```
 
-## Learning Outcomes
-
-Through this project, interns will learn:
-
-- Rule-based chatbot development
-- Pattern matching and string processing
-- Handling user input and generating dynamic responses
-- Introduction to conversational AI concepts
-- Software development best practices
-
-## Future Enhancements
-
-- Integration of more sophisticated NLP techniques
-- Machine learning-based intent recognition
-- Persistence of conversation history
-- Multi-language support
-- API integration for real-time data
-
 ## License
 
-This project is part of the CodeAlpha internship program.
+This project is licensed under the MIT License.
 
 ## Author
 
-Created as part of CodeAlpha Internship Program
+Yogesh Sharma
+
