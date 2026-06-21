@@ -8,9 +8,11 @@ def get_bot_response(user_input):
     
     # Rule-based logic using if-elif-else statements
     if cleaned_input == "hello":
-        return "Hi!"
+        return "Hi there! How can i assit you today?"
     elif cleaned_input == "how are you":
         return "I'm fine, thanks!"
+    elif cleaned_input == "what is your name"
+        return "I'm CodeAlpha Basic Chatbot."    
     elif cleaned_input == "bye":
         return "Goodbye!"
     else:
